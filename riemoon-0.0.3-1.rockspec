@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package="riemoon"
-version="0.0.2-1"
+version="0.0.3-1"
 -- LuaDist source
 source = {
-  tag = "0.0.2-1",
+  tag = "0.0.3-1",
   url = "git://github.com/LuaDist-testing/riemoon.git"
 }
 -- Original source
@@ -25,6 +25,6 @@ dependencies = {
 }
 build = {
    type = "command",
-   build_command = "autoreconf -i && ./configure --prefix=$(PREFIX) --libdir=$(LIBDIR) --datadir=$(LUADIR) && make clean && make && make check",
+   build_command = "autoreconf -i && ./configure --prefix=$(PREFIX) --libdir=$(LIBDIR) --datadir=$(LUADIR) && make clean && make",
    install_command = "make install"
 }

@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package="riemoon"
-version="0.0.1-1"
+version="0.0.2-1"
 -- LuaDist source
 source = {
-  tag = "0.0.1-1",
+  tag = "0.0.2-1",
   url = "git://github.com/LuaDist-testing/riemoon.git"
 }
 -- Original source
@@ -20,7 +20,7 @@ description = {
    license = "LGPL3+"
 }
 dependencies = {
-   "lua >= 5.2",
+   "lua >= 5.1",
    "busted >= 2.0.rc7-0"
 }
 build = {
